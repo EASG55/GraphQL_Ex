@@ -1,4 +1,3 @@
-import { Pet } from "../types.ts"; 
 import { GraphQLError } from "graphql"; 
 import { PetModel } from "../pet.ts"; 
 
