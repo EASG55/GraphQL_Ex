@@ -35,5 +35,4 @@ console.log(`🚀 Server ready at ${url}`);
 
 }catch(err){
   console.log(err);
-  Deno.exit(1);
 }
