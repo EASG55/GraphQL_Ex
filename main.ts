@@ -20,10 +20,12 @@ await mongoose.connect(MONGO_URL);
 
 
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers: [Query, Mutation],
-});
+const resolvers = { Mutation, Query};
+  
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers: resolvers,
+  });
 
 const { url } = await startStandaloneServer(server, {
   listen: {
