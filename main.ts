@@ -19,7 +19,6 @@ if (!MONGO_URL) {
 await mongoose.connect(MONGO_URL);
 
 
-
 const resolvers = { Mutation, Query};
   
   const server = new ApolloServer({
