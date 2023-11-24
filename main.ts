@@ -30,7 +30,7 @@ const { url } = await startStandaloneServer(server, {
     port: 3000,
   },
 });
-console.log(`🚀 Server ready at ${url}`);
+console.log(`🚀 Server ready at the ${url}`);
 
 }catch(err){
   console.log(err);
